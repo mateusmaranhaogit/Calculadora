@@ -6,7 +6,7 @@ public class Calculadora {
     }
     
     public int subtrair(int a, int b){
-        return a - b;//Função de subtrair
+        return a - b;//Função de subtração
     }
     
     public int multiplicar(int a, int b){
