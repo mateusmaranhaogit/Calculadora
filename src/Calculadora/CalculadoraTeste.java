@@ -1,6 +1,6 @@
 package Calculadora;
 
-public class Calculadora {
+public class CalculadoraTeste {
     public int somar(int a, int b){
         return a + b;//Função de somar
     }
