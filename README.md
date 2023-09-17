@@ -1,18 +1,34 @@
-## Getting Started
+# Teste Automatizado Calculadora 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Este é um projeto de teste automatizado de uma calculadora em Java, utilizando o framework JUnit 5. O objetivo deste projeto é demonstrar como realizar testes automatizados em uma calculadora.
 
-The workspace contains two folders by default, where:
+## Funcionalidades da Calculadora
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A calculadora possui as seguintes funcionalidades:
+- Adição
+- Subtração
+- Multiplicação
+- Divisão
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Testes Automatizados
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Para garantir a precisão das operações da calculadora, foram desenvolvidos testes automatizados utilizando o JUnit 5. Cada função da calculadora tem seus próprios testes unitários. Os testes verificam se as operações retornam os resultados esperados e se lidam corretamente com casos especiais, como divisão por zero.
 
-## Dependency Management
+## Como Executar os Testes
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Para executar os testes automatizados, siga as instruções abaixo:
+
+1- Certifique-se de que você possui o ambiente de desenvolvimento Java configurado em sua máquina.
+
+2- Abra o projeto em sua IDE de preferência.
+
+3 - Navegue até o diretório onde os testes estão localizados.
+
+4 - Execute os testes utilizando o JUnit Runner em sua IDE.
+
+![Imagem do WhatsApp de 2023-09-17 à(s) 10 53 12](https://github.com/mateusmaranhaogit/Calculadora/assets/101333760/e92dacca-7082-4f96-8bc1-9bdb95cb3fcc)
+
+## Última atualização 17/09/2023
+
