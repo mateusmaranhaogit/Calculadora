@@ -1,10 +1,21 @@
+/**
+ * Classe de teste unitário para a classe Calculadora.
+ * 
+ * Esta classe contém uma série de testes unitários para verificar o funcionamento correto
+ * das operações de soma, subtração, multiplicação e divisão da classe Calculadora.
+ *
+ * @author Mateus Maranhão
+ * @version 1.0         
+ * @since 21 de Setembro de 2023 
+ */
+
 package Calculadora;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 public class CalculadoaJUnitTest {
-    //Teste soma
+    //Teste de soma
     @Test
     //Teste 1: Soma de dois valores positivos
     public void somaNumerosPositivos(){
@@ -37,7 +48,7 @@ public class CalculadoaJUnitTest {
         Assert.assertEquals(4, soma); //Resultado esperado
         Assert.assertNotEquals(5, soma); //Resultado NÃO esperado
     }
-    //Teste subtração
+    //Teste de subtração
     @Test
     //Teste 1: Subtração de dois valores positivos
     public void subtracaoNumerosPositivos(){
@@ -70,7 +81,7 @@ public class CalculadoaJUnitTest {
         Assert.assertEquals(6, subtracao); //Resultado esperado
         Assert.assertNotEquals(1, subtracao); //Resultado NÃO esperado
     }
-    //Teste divisão 
+    //Teste de divisão 
     @Test
     //Teste 1: Divisão de dois valores positivos
     public void divisaoNumerosPositivos(){
@@ -98,7 +109,7 @@ public class CalculadoaJUnitTest {
         int divisao = calculadora.dividir(4,-4);
         Assert.assertEquals(-1, divisao); //Resultado esperado
     } 
-    //Teste multiplicação
+    //Teste de multiplicação
     @Test
     //Teste 1: Multiplicação de dois valores positivos
     public void multiplicacaoNumerosPositivos(){
