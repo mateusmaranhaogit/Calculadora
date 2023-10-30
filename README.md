@@ -30,5 +30,5 @@ Para executar os testes automatizados, siga as instruções abaixo:
 
 ![Imagem do WhatsApp de 2023-09-17 à(s) 10 53 12](https://github.com/mateusmaranhaogit/Calculadora/assets/101333760/e92dacca-7082-4f96-8bc1-9bdb95cb3fcc)
 
-## Última atualização 17/09/2023
+## Última atualização 30/10/2023
 
